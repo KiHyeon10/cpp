@@ -1,5 +1,16 @@
 #include <iostream>
+#include <cstring>
+using namespace std;
 
 int main() {
-    std:: cout << "Hello world";
+    cout << "Want to go Home" << endl;
+    
+    int n = strlen("Hello");
+
+    cout << n;
+    
+
+    return 0;
+
+
 }
